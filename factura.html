@@ -4,8 +4,10 @@
 <head>
   <title>Factura On-Line</title>
   <link rel="stylesheet" type="text/css" href="estilos.css"/>
-  <meta charset="utf-8">
   <script type="text/javascript" src="funciones.js"></script>
+  <meta charset="utf-8">
+  <meta name="description" content="Pagina Financiera"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
 </head>
 
 <body>
@@ -28,11 +30,15 @@
       <label for="cantidad">Cantidad</label>
       <input type="text" id="cantidad" value="" size="" placeholder="Cantidad">
     
-      <input type="button" value="Enviar" onclick="revisarAlmacen()">
+      <input type="button" value="Enviar" onclick="loadDOC()">
     </form>
+    <p><b>Status:</b> <span id="A1"></span></p>
+    <p><b>Status text:</b> <span id="A2"></span></p>
+    <p><b>Banderas:</b> <span id="A3"></span></p>
+    <p><b>Response:</b> <span id="A4"></span></p>
   </div><br />
 
-  <div>
+  <div id="content">
     <table cellspacing="0">
       <tr>
         <th>Código</th>
@@ -51,7 +57,7 @@
     </table>
   </div><br />
 
-  <div>
+  <div id="content">
     <table cellspacing="0">
       <tr>
         <th>SubTotal</th>

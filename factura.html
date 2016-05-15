@@ -23,7 +23,7 @@
 <center>
 
   <div>
-    <form method="post">
+    <form id="formP" method="post">
       <label for="codigo">Código</label>
       <input type="text" id="codigo" value="" size="" placeholder="Código de producto">
 
@@ -32,14 +32,10 @@
     
       <input type="button" value="Enviar" onclick="loadDOC()">
     </form>
-    <p><b>Status:</b> <span id="A1"></span></p>
-    <p><b>Status text:</b> <span id="A2"></span></p>
-    <p><b>Banderas:</b> <span id="A3"></span></p>
-    <p><b>Response:</b> <span id="A4"></span></p>
   </div><br />
 
-  <div id="content">
-    <table cellspacing="0">
+  <div>
+    <table id="T1" cellspacing="0">
       <tr>
         <th>Código</th>
         <th>Descripción</th>    
@@ -57,7 +53,7 @@
     </table>
   </div><br />
 
-  <div id="content">
+  <div>
     <table cellspacing="0">
       <tr>
         <th>SubTotal</th>
@@ -75,7 +71,7 @@
   </div><br />
 
   <button class="button" style="vertical-align:middle" onclick="javascript:window.open('almacen.xml');"><span>Ayurame </span></button>
-  <button class="button" style="vertical-align:middle" onclick="limpiarVentana()"><span>Limpiar </span></button>
+  <button class="button" style="vertical-align:middle" onclick="limpiar()"><span>Limpiar </span></button>
 
 </center>
 

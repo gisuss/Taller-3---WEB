@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Factura On-Line</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css"/>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+  <script type="text/javascript" src="/scripts/funciones.js"></script>
+</head>
+
+<body>
+
+<header class="cajacontenedoraTitulo Tealcolor" id="inicio">
+  <h1>Sistema de Facturación On-line</h1>
+</header><br />
+
+<form>
+  <input type="search" name="buscar" placeholder="buscar..">
+</form><br />
+
+<center>
+
+  <div>
+    <form method="post">
+      <label for="codigo">Código</label>
+      <input type="text" id="codigo" value="" size="" placeholder="Código de producto">
+
+      <label for="cantidad">Cantidad</label>
+      <input type="text" id="cantidad" value="" size="" placeholder="Cantidad">
+    
+      <input type="button" value="Enviar" onclick="revisarAlmacen()">
+    </form>
+  </div><br />
+
+  <div>
+    <table cellspacing="0">
+      <tr>
+        <th>Código</th>
+        <th>Descripción</th>    
+        <th>Cantidad</th>
+        <th>Precio Unitario</th>
+        <th>Precio Total</th>
+      </tr>
+      <tr>
+        <td><p id="cod"></p></td>
+        <td><p id="descrip"></p></td>    
+        <td><p id="cant"></p></td>
+        <td><p id="precioUnitario"></p></td>
+        <td><p id="precioT"></p></td>
+      </tr>
+    </table>
+  </div><br />
+
+  <div>
+    <table cellspacing="0">
+      <tr>
+        <th>SubTotal</th>
+        <td id="subtotal">0</td>
+      </tr>
+      <tr>
+        <th>IVA (12%)</th>
+        <td id="iva">0</td>
+      </tr>
+      <tr>
+        <th>Total</th>
+        <td id="total">0</td>
+      </tr>
+    </table>
+  </div><br />
+
+  <button class="button" style="vertical-align:middle" onclick="javascript:window.open('inventario.xml');"><span>Ayurame </span></button>
+  <button class="button" style="vertical-align:middle" onclick="limpiarVentana()"><span>Limpiar </span></button>
+
+</center>
+
+<footer class="cajacontenedoraPie Tealcolor" id="fin">
+    <br /> <address>Desarrollado por:</address>
+    <address><b>Jesús Romero</b> - C.I.: 20.753.800</address>
+    <address><b>Yessica Ríos</b> - C.I.: 20.786.743</address><br />
+</footer>
+
+</body>
+</html>

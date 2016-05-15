@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="inventario.xsl"?>
+<inventario>
+  <productos>
+    <codigo>1</codigo>
+    <descripcion>Corbata</descripcion>
+    <precio>2300</precio>
+  </productos>
+  
+  <productos>
+    <codigo>2</codigo>
+    <descripcion>Tirantes</descripcion>
+    <precio>5600</precio>
+  </productos>
+  
+  <productos>
+    <codigo>3</codigo>
+    <descripcion>Camisa Unicolor M/L</descripcion>
+    <precio>14990</precio>
+  </productos>
+  
+  <productos>
+    <codigo>4</codigo>
+    <descripcion>Camisa de Cuadros Rochas M/C</descripcion>
+    <precio>23500</precio>
+  </productos>  
+  
+  <productos>
+    <codigo>5</codigo>
+    <descripcion>Pantalón de Vestir Etiqueta Negra</descripcion>
+    <precio>12000</precio>
+  </productos>  
+
+  <productos>
+    <codigo>6</codigo>
+    <descripcion>Jean Lee</descripcion>
+    <precio>17500</precio>
+  </productos>  
+
+  <productos>
+    <codigo>7</codigo>
+    <descripcion>Jean Levis 501</descripcion>
+    <precio>60000</precio>
+  </productos>  
+
+  <productos>
+    <codigo>8</codigo>
+    <descripcion>AJean Aeropostale</descripcion>
+    <precio>12300</precio>
+  </productos>  
+
+  <productos>
+    <codigo>9</codigo>
+    <descripcion>Franela Polo Unicolor</descripcion>
+    <precio>4500</precio>
+  </productos>  
+
+  <productos>
+    <codigo>10</codigo>
+    <descripcion>Franela Mala Maña</descripcion>
+    <precio>7500</precio>
+  </productos>
+
+  <productos>
+    <codigo>11</codigo>
+    <descripcion>Franela Calvin Klein</descripcion>
+    <precio>7200</precio>
+  </productos>
+
+  <productos>
+    <codigo>12</codigo>
+    <descripcion>Chemisse American Studios</descripcion>
+    <precio>4990</precio>
+  </productos>
+
+  <productos>
+    <codigo>13</codigo>
+    <descripcion>Chemise Etiqueta Negra</descripcion>
+    <precio>4000</precio>
+  </productos>
+
+  <productos>
+    <codigo>14</codigo>
+    <descripcion>Correa Tommy</descripcion>
+    <precio>8200</precio>
+  </productos>
+  
+  <productos>
+    <codigo>15</codigo>
+    <descripcion>Zapatos Polo</descripcion>
+    <precio>28500</precio>
+  </productos>
+  
+    <productos>
+    <codigo>16</codigo>
+    <descripcion>Medias Nike</descripcion>
+    <precio>1990</precio>
+  </productos>
+  
+    <productos>
+    <codigo>17</codigo>
+    <descripcion>Boxer Kalvin Klein</descripcion>
+    <precio>5190</precio>
+  </productos>
+  
+    <productos>
+    <codigo>18</codigo>
+    <descripcion>Leggis Unicolor</descripcion>
+    <precio>10200</precio>
+  </productos>
+  
+    <productos>
+    <codigo>19</codigo>
+    <descripcion>Pantalón de Niño Nautica</descripcion>
+    <precio>30200</precio>
+  </productos>
+  
+    <productos>
+    <codigo>20</codigo>
+    <descripcion>Traje Satinado Perrielli Slin-fit</descripcion>
+    <precio>180000</precio>
+  </productos>
+
+  <productos>
+    <codigo>21</codigo>
+    <descripcion>Franela Deportiva Nike Dama</descripcion>
+    <precio>4500</precio>
+  </productos>
+
+  <productos>
+    <codigo>22</codigo>
+    <descripcion>Mono Deportivo Addidas Dama</descripcion>
+    <precio>12990</precio>
+  </productos>
+
+  <productos>
+    <codigo>23</codigo>
+    <descripcion>Mono Deportivo Nike Dama</descripcion>
+    <precio>8000</precio>
+  </productos>
+
+  <productos>
+    <codigo>24</codigo>
+    <descripcion>Franela Deportiva Addidas Caballero</descripcion>
+    <precio>9500</precio>
+  </productos>
+
+  <productos>
+    <codigo>25</codigo>
+    <descripcion>Short Deportivo Columbia</descripcion>
+    <precio>10500</precio>
+  </productos>
+  
+  <productos>
+    <codigo>26</codigo>
+    <descripcion>Billetera Victorinox</descripcion>
+    <precio>4500</precio>
+  </productos>
+  
+    <productos>
+    <codigo>27</codigo>
+    <descripcion>Organizador Victorinox</descripcion>
+    <precio>6500</precio>
+  </productos>
+  
+    <productos>
+    <codigo>28</codigo>
+    <descripcion>Bolso Nikole</descripcion>
+    <precio>18500</precio>
+  </productos>
+  
+    <productos>
+    <codigo>29</codigo>
+    <descripcion>Morral Hurley</descripcion>
+    <precio>22800</precio>
+  </productos>
+  
+    <productos>
+    <codigo>30</codigo>
+    <descripcion>Gorra Under Armour</descripcion>
+    <precio>2500</precio>
+  </productos>
+  
+    <productos>
+    <codigo>31</codigo>
+    <descripcion>Gorra Nike</descripcion>
+    <precio>2000</precio>
+  </productos>
+  
+</inventario>

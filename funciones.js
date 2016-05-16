@@ -3,6 +3,7 @@ function loadDOC() {
   xhttp.onreadystatechange = function() {
     if (xhttp.readyState == 4 && xhttp.status == 200) {
         buscar(xhttp);
+        document.getElementById("formP").reset();
     }
   };
 
@@ -102,7 +103,6 @@ function Mostrar(codigo,descripcion,cantidad,precioU,precioT) {
 
 function limpiar() {
   //Se limpia todo
-  document.getElementById("formP").reset();
   document.getElementById('cod').innerHTML="";
   document.getElementById('descrip').innerHTML="";
   document.getElementById('cant').innerHTML="";
@@ -114,12 +114,9 @@ function limpiar() {
 }
 
 function openNav() {
-    document.getElementById("myNav").style.top = "0";
-    document.getElementById("myNav").style.display = "block";
     document.getElementById("myNav").style.height = "100%";
 }
 
 function closeNav() {
     document.getElementById("myNav").style.height = "0%";
-    document.getElementById("myNav").style.display = "none";
 }

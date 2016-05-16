@@ -71,7 +71,30 @@
   </div><br />
 
   <button class="button" style="vertical-align:middle" onclick="javascript:window.open('almacen.xml');"><span>Ayurame </span></button>
-  <button class="button" style="vertical-align:middle" onclick="limpiar()"><span>Limpiar </span></button>
+  <button class="button" style="vertical-align:middle" id="myBtn"><span>Limpiar </span></button>
+  <button class="button" style="vertical-align:middle" id="customers"><span>Contact </span></button>
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">×</span>
+        <h2>¡Atención!</h2>
+      </div>
+      <div class="modal-body">
+        <p>Estimado Usuario, </p>
+        <p>
+          La acción que está a punto de realizar, remueve toda información que usted haya suministrado referente a la factura y datos de formulario.
+          ¿Realmente desea continuar con esta acción?
+        </p>
+      </div>
+      <div class="modal-footer">
+        <center>
+          <button id="myBtn2" type="button"><spann>Si</spann></button>
+          <button id="myBtn3" type="button"><spann>No</spann></button>
+        </center>
+      </div>
+    </div>
+  </div>
 
 </center>
 
@@ -80,6 +103,51 @@
     <address><b>Jesús Romero</b> - C.I.: 20.753.800</address>
     <address><b>Yessica Ríos</b> - C.I.: 20.786.743</address><br />
 </footer>
+
+<script>
+  // Obtener el Modal
+  var modal = document.getElementById('myModal');
+
+  // Obtener el boton que activa el Modal
+  var btn = document.getElementById("myBtn");
+
+  // Obtener el <span> que cierra el Modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // Obtener el Boton de Confirmacion
+  var btn2 = document.getElementById("myBtn2");
+
+  // Obtener el Boton de Confirmacion
+  var btn3 = document.getElementById("myBtn3");
+
+  // Cuando se hace click en el boton, se activa el Modal 
+  btn.onclick = function() {
+      modal.style.display = "block";
+  }
+
+  // Cuando se hace click sobre el boton de Confirmacion
+  btn2.onclick = function() {
+    limpiar();
+    modal.style.display = "none";
+  }
+
+  // Cuando se hace click sobre el boton de Confirmacion
+  btn3.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // Cuando se hace click en <span>, se cierra el Modal
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+
+  // Cuando se hace click en cualquier lado fuera de la pantalla, se cierra el Modal
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+</script>
 
 </body>
 </html>

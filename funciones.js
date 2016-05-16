@@ -112,3 +112,14 @@ function limpiar() {
   document.getElementById('iva').innerHTML="0";
   document.getElementById('total').innerHTML="0";
 }
+
+function openNav() {
+    document.getElementById("myNav").style.top = "0";
+    document.getElementById("myNav").style.display = "block";
+    document.getElementById("myNav").style.height = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+    document.getElementById("myNav").style.display = "none";
+}

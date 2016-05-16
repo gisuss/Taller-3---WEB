@@ -72,31 +72,54 @@
 
   <button class="button" style="vertical-align:middle" onclick="javascript:window.open('almacen.xml');"><span>Ayurame </span></button>
   <button class="button" style="vertical-align:middle" id="myBtn"><span>Limpiar </span></button>
-  <button class="button" style="vertical-align:middle" id="customers"><span>Contact </span></button>
-
-  <div id="myModal" class="modal">
-    <div class="modal-content">
-      <div class="modal-header">
-        <span class="close">×</span>
-        <h2>¡Atención!</h2>
-      </div>
-      <div class="modal-body">
-        <p>Estimado Usuario, </p>
-        <p>
-          La acción que está a punto de realizar, remueve toda información que usted haya suministrado referente a la factura y datos de formulario.
-          ¿Realmente desea continuar con esta acción?
-        </p>
-      </div>
-      <div class="modal-footer">
-        <center>
-          <button id="myBtn2" type="button"><spann>Si</spann></button>
-          <button id="myBtn3" type="button"><spann>No</spann></button>
-        </center>
-      </div>
-    </div>
-  </div>
+  <button class="button" style="vertical-align:middle" onclick="openNav()"><span>Contact </span></button>
 
 </center>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">×</span>
+      <h2>¡Atención!</h2>
+    </div>
+    <div class="modal-body">
+      <p><strong>Estimado Usuario, </strong></p>
+      <p>
+        La acción que está a punto de realizar, remueve toda información que usted haya suministrado referente a la factura y datos de formulario.
+        <strong>¿Realmente desea continuar con esta acción?</strong>
+      </p>
+    </div>
+    <div class="modal-footer">
+      <center>
+        <button id="myBtn2" type="button"><spann>Si</spann></button>
+        <button id="myBtn3" type="button"><spann>No</spann></button>
+      </center>
+    </div>
+  </div>
+</div>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <div class="overlay-content">
+    <center>
+      <div class="card">
+        <img src="images/yessica.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Yessica Ríos</b></h4> 
+          <p>Student of Computer Science at the University of Carabobo.</p> 
+        </div>
+      </div><br />
+
+      <div class="card">
+        <img src="images/jesus.jpg" alt="Avatar" style="width:100%">
+        <div class="container">
+          <h4><b>Jesús Romero</b></h4> 
+          <p>Student of Computer Science at the University of Carabobo.</p> 
+        </div>
+      </div><br /><br /><br /><br /><br />
+    </center>
+  </div>
+</div>
 
 <footer class="cajacontenedoraPie Tealcolor" id="fin">
     <br /> <address>Desarrollado por:</address>

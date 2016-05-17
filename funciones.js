@@ -1,5 +1,12 @@
 function loadDOC() {
-  var xhttp = new XMLHttpRequest();
+  var xhttp;
+
+  if (window.XMLHttpRequest) {
+    xhttp = new XMLHttpRequest();
+    } else {
+    xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+  }
+
   xhttp.onreadystatechange = function() {
     if (xhttp.readyState == 4 && xhttp.status == 200) {
         buscar(xhttp);
@@ -103,6 +110,7 @@ function Mostrar(codigo,descripcion,cantidad,precioU,precioT) {
 
 function limpiar() {
   //Se limpia todo
+  document.getElementById("formP").reset();
   document.getElementById('cod').innerHTML="";
   document.getElementById('descrip').innerHTML="";
   document.getElementById('cant').innerHTML="";

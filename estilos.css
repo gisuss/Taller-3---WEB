@@ -113,6 +113,7 @@ div {
 table {
   border-collapse: collapse;
   width: 90%;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 th, td {
@@ -176,20 +177,6 @@ table tr:hover {
     to {top:0; opacity:1}
 }
 
-/* El boton de Cerrar Modal */
-.close {
-    color: white;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close:hover,.close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
 .modal-body {
     padding: 2px 16px;
     font-size: 20px;
@@ -201,6 +188,7 @@ table tr:hover {
   font-size: 16px;
   font-weight: 300;
   line-height: normal;
+  text-align: center;
   padding: 0 10px 0 10px;
 }
 
@@ -211,6 +199,7 @@ table tr:hover {
 .modal-body img {
   margin: 10px 0 0 0;
   text-align: center;
+  z-index: 1;
 }
 
 .modal-footer {
@@ -272,6 +261,10 @@ table tr:hover {
     overflow-x: hidden;
     transition: 0.7s;
     padding: 0;
+}
+
+.overlay::-webkit-scrollbar {
+  display: none;
 }
 
 .overlay-content {
